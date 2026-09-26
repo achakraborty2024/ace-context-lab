@@ -1,0 +1,227 @@
+[
+  {
+    "scenario": "stationary",
+    "comparison": "gated - none",
+    "utility_delta": 0.30000000000000004,
+    "ci95": [
+      0.30000000000000004,
+      0.30000000000000004
+    ]
+  },
+  {
+    "scenario": "stationary",
+    "comparison": "gated - static",
+    "utility_delta": 0,
+    "ci95": [
+      0,
+      0
+    ]
+  },
+  {
+    "scenario": "stationary",
+    "comparison": "gated - recency",
+    "utility_delta": 0,
+    "ci95": [
+      0,
+      0
+    ]
+  },
+  {
+    "scenario": "stationary",
+    "comparison": "gated - frequency",
+    "utility_delta": 0,
+    "ci95": [
+      0,
+      0
+    ]
+  },
+  {
+    "scenario": "stationary",
+    "comparison": "gated - scoped",
+    "utility_delta": 0,
+    "ci95": [
+      0,
+      0
+    ]
+  },
+  {
+    "scenario": "drift",
+    "comparison": "gated - none",
+    "utility_delta": 0.2925000000000001,
+    "ci95": [
+      0.2925000000000001,
+      0.2925000000000001
+    ]
+  },
+  {
+    "scenario": "drift",
+    "comparison": "gated - static",
+    "utility_delta": 2.9925,
+    "ci95": [
+      2.9925,
+      2.9925
+    ]
+  },
+  {
+    "scenario": "drift",
+    "comparison": "gated - recency",
+    "utility_delta": 0.0675,
+    "ci95": [
+      0.0675,
+      0.0675
+    ]
+  },
+  {
+    "scenario": "drift",
+    "comparison": "gated - frequency",
+    "utility_delta": 2.745,
+    "ci95": [
+      2.6750000000000003,
+      2.8112500000000002
+    ]
+  },
+  {
+    "scenario": "drift",
+    "comparison": "gated - scoped",
+    "utility_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "mixed_scope",
+    "comparison": "gated - none",
+    "utility_delta": 0.28500000000000003,
+    "ci95": [
+      0.28500000000000003,
+      0.28500000000000003
+    ]
+  },
+  {
+    "scenario": "mixed_scope",
+    "comparison": "gated - static",
+    "utility_delta": 1.53,
+    "ci95": [
+      1.4637499999999999,
+      1.6
+    ]
+  },
+  {
+    "scenario": "mixed_scope",
+    "comparison": "gated - recency",
+    "utility_delta": 1.4962499999999999,
+    "ci95": [
+      1.4449999999999998,
+      1.5525
+    ]
+  },
+  {
+    "scenario": "mixed_scope",
+    "comparison": "gated - frequency",
+    "utility_delta": 1.50375,
+    "ci95": [
+      1.44125,
+      1.56625
+    ]
+  },
+  {
+    "scenario": "mixed_scope",
+    "comparison": "gated - scoped",
+    "utility_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "noisy_feedback",
+    "comparison": "gated - none",
+    "utility_delta": 0.29037500000000005,
+    "ci95": [
+      0.28937500000000005,
+      0.29137500000000005
+    ]
+  },
+  {
+    "scenario": "noisy_feedback",
+    "comparison": "gated - static",
+    "utility_delta": 2.465375,
+    "ci95": [
+      2.145375,
+      2.734625
+    ]
+  },
+  {
+    "scenario": "noisy_feedback",
+    "comparison": "gated - recency",
+    "utility_delta": 0.672875,
+    "ci95": [
+      0.62225,
+      0.71975
+    ]
+  },
+  {
+    "scenario": "noisy_feedback",
+    "comparison": "gated - frequency",
+    "utility_delta": 2.721625,
+    "ci95": [
+      2.645875,
+      2.794375
+    ]
+  },
+  {
+    "scenario": "noisy_feedback",
+    "comparison": "gated - scoped",
+    "utility_delta": 0.6228750000000001,
+    "ci95": [
+      0.5763750000000001,
+      0.6687500000000001
+    ]
+  },
+  {
+    "scenario": "hidden_drift",
+    "comparison": "gated - none",
+    "utility_delta": 0.2250000000000001,
+    "ci95": [
+      0.2250000000000001,
+      0.2250000000000001
+    ]
+  },
+  {
+    "scenario": "hidden_drift",
+    "comparison": "gated - static",
+    "utility_delta": 2.925,
+    "ci95": [
+      2.925,
+      2.925
+    ]
+  },
+  {
+    "scenario": "hidden_drift",
+    "comparison": "gated - recency",
+    "utility_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "scenario": "hidden_drift",
+    "comparison": "gated - frequency",
+    "utility_delta": 2.6775,
+    "ci95": [
+      2.6075,
+      2.74375
+    ]
+  },
+  {
+    "scenario": "hidden_drift",
+    "comparison": "gated - scoped",
+    "utility_delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ]
+  }
+]

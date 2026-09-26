@@ -1,0 +1,1757 @@
+{
+  "stationary/none": [],
+  "stationary/static": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 9,
+      "last_step": 20,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 8,
+      "last_step": 22,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 7,
+      "last_step": 23,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "stationary/recency": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 70,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 86,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 84,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "stationary/frequency": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 70,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 86,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 84,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "stationary/scoped": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 70,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 86,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 84,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "stationary/gated": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 70,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 86,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 84,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "drift/none": [],
+  "drift/static": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 9,
+      "last_step": 20,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 8,
+      "last_step": 22,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 7,
+      "last_step": 23,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "drift/recency": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 37,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 45,
+      "last_step": 118,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 38,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 41,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 33,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 46,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "drift/frequency": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 37,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 45,
+      "last_step": 118,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 38,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 41,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 33,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 46,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "drift/scoped": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 37,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 45,
+      "last_step": 118,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 38,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 41,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 33,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 46,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "drift/gated": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 37,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 45,
+      "last_step": 118,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 38,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 41,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 33,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 46,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "mixed_scope/none": [],
+  "mixed_scope/static": [
+    {
+      "id": 1,
+      "service": "database",
+      "region": "eu",
+      "version": 1,
+      "action": "parallel",
+      "support": 5,
+      "last_step": 22,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "worker",
+      "region": "eu",
+      "version": 1,
+      "action": "serial",
+      "support": 6,
+      "last_step": 20,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 6,
+      "last_step": 21,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 3,
+      "last_step": 12,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 3,
+      "last_step": 23,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "eu",
+      "version": 1,
+      "action": "serial",
+      "support": 1,
+      "last_step": 16,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "mixed_scope/recency": [
+    {
+      "id": 1,
+      "service": "database",
+      "region": "eu",
+      "version": 1,
+      "action": "parallel",
+      "support": 27,
+      "last_step": 118,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "worker",
+      "region": "eu",
+      "version": 1,
+      "action": "serial",
+      "support": 15,
+      "last_step": 112,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 23,
+      "last_step": 109,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 16,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 23,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "eu",
+      "version": 1,
+      "action": "serial",
+      "support": 16,
+      "last_step": 117,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 7,
+      "service": "database",
+      "region": "eu",
+      "version": 2,
+      "action": "serial",
+      "support": 21,
+      "last_step": 235,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 8,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 26,
+      "last_step": 236,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 9,
+      "service": "worker",
+      "region": "eu",
+      "version": 2,
+      "action": "parallel",
+      "support": 23,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 10,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 22,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 11,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 18,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 12,
+      "service": "api",
+      "region": "eu",
+      "version": 2,
+      "action": "parallel",
+      "support": 10,
+      "last_step": 232,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "mixed_scope/frequency": [
+    {
+      "id": 1,
+      "service": "database",
+      "region": "eu",
+      "version": 1,
+      "action": "parallel",
+      "support": 27,
+      "last_step": 118,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "worker",
+      "region": "eu",
+      "version": 1,
+      "action": "serial",
+      "support": 15,
+      "last_step": 112,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 23,
+      "last_step": 109,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 16,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 23,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "eu",
+      "version": 1,
+      "action": "serial",
+      "support": 16,
+      "last_step": 117,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 7,
+      "service": "database",
+      "region": "eu",
+      "version": 2,
+      "action": "serial",
+      "support": 21,
+      "last_step": 235,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 8,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 26,
+      "last_step": 236,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 9,
+      "service": "worker",
+      "region": "eu",
+      "version": 2,
+      "action": "parallel",
+      "support": 23,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 10,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 22,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 11,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 18,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 12,
+      "service": "api",
+      "region": "eu",
+      "version": 2,
+      "action": "parallel",
+      "support": 10,
+      "last_step": 232,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "mixed_scope/scoped": [
+    {
+      "id": 1,
+      "service": "database",
+      "region": "eu",
+      "version": 1,
+      "action": "parallel",
+      "support": 27,
+      "last_step": 118,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "worker",
+      "region": "eu",
+      "version": 1,
+      "action": "serial",
+      "support": 15,
+      "last_step": 112,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 23,
+      "last_step": 109,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 16,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 23,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "eu",
+      "version": 1,
+      "action": "serial",
+      "support": 16,
+      "last_step": 117,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 7,
+      "service": "database",
+      "region": "eu",
+      "version": 2,
+      "action": "serial",
+      "support": 21,
+      "last_step": 235,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 8,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 26,
+      "last_step": 236,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 9,
+      "service": "worker",
+      "region": "eu",
+      "version": 2,
+      "action": "parallel",
+      "support": 23,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 10,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 22,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 11,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 18,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 12,
+      "service": "api",
+      "region": "eu",
+      "version": 2,
+      "action": "parallel",
+      "support": 10,
+      "last_step": 232,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "mixed_scope/gated": [
+    {
+      "id": 1,
+      "service": "database",
+      "region": "eu",
+      "version": 1,
+      "action": "parallel",
+      "support": 27,
+      "last_step": 118,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "worker",
+      "region": "eu",
+      "version": 1,
+      "action": "serial",
+      "support": 15,
+      "last_step": 112,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 23,
+      "last_step": 109,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 16,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 23,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "eu",
+      "version": 1,
+      "action": "serial",
+      "support": 16,
+      "last_step": 117,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 7,
+      "service": "database",
+      "region": "eu",
+      "version": 2,
+      "action": "serial",
+      "support": 21,
+      "last_step": 235,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 8,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 26,
+      "last_step": 236,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 9,
+      "service": "worker",
+      "region": "eu",
+      "version": 2,
+      "action": "parallel",
+      "support": 23,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 10,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 22,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 11,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 18,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 12,
+      "service": "api",
+      "region": "eu",
+      "version": 2,
+      "action": "parallel",
+      "support": 10,
+      "last_step": 232,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "noisy_feedback/none": [],
+  "noisy_feedback/static": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 8,
+      "last_step": 23,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 4,
+      "last_step": 19,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 2,
+      "last_step": 10,
+      "source": "unverified_log"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 9,
+      "last_step": 22,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 1,
+      "last_step": 13,
+      "source": "unverified_log"
+    }
+  ],
+  "noisy_feedback/recency": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 28,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 28,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 9,
+      "last_step": 113,
+      "source": "unverified_log"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 39,
+      "last_step": 115,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 8,
+      "last_step": 108,
+      "source": "unverified_log"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 8,
+      "last_step": 70,
+      "source": "unverified_log"
+    },
+    {
+      "id": 7,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 29,
+      "last_step": 227,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 8,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 31,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 9,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 36,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 10,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 4,
+      "last_step": 188,
+      "source": "unverified_log"
+    },
+    {
+      "id": 11,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 4,
+      "last_step": 223,
+      "source": "unverified_log"
+    },
+    {
+      "id": 12,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 16,
+      "last_step": 238,
+      "source": "unverified_log"
+    }
+  ],
+  "noisy_feedback/frequency": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 28,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 28,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 9,
+      "last_step": 113,
+      "source": "unverified_log"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 39,
+      "last_step": 115,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 8,
+      "last_step": 108,
+      "source": "unverified_log"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 8,
+      "last_step": 70,
+      "source": "unverified_log"
+    },
+    {
+      "id": 7,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 29,
+      "last_step": 227,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 8,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 31,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 9,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 36,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 10,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 4,
+      "last_step": 188,
+      "source": "unverified_log"
+    },
+    {
+      "id": 11,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 4,
+      "last_step": 223,
+      "source": "unverified_log"
+    },
+    {
+      "id": 12,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 16,
+      "last_step": 238,
+      "source": "unverified_log"
+    }
+  ],
+  "noisy_feedback/scoped": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 28,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 28,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 9,
+      "last_step": 113,
+      "source": "unverified_log"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 39,
+      "last_step": 115,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 8,
+      "last_step": 108,
+      "source": "unverified_log"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 8,
+      "last_step": 70,
+      "source": "unverified_log"
+    },
+    {
+      "id": 7,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 29,
+      "last_step": 227,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 8,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 31,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 9,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 36,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 10,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 4,
+      "last_step": 188,
+      "source": "unverified_log"
+    },
+    {
+      "id": 11,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 4,
+      "last_step": 223,
+      "source": "unverified_log"
+    },
+    {
+      "id": 12,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 16,
+      "last_step": 238,
+      "source": "unverified_log"
+    }
+  ],
+  "noisy_feedback/gated": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 28,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 28,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 39,
+      "last_step": 115,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 2,
+      "action": "parallel",
+      "support": 29,
+      "last_step": 227,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "api",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 31,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "worker",
+      "region": "us",
+      "version": 2,
+      "action": "serial",
+      "support": 36,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "hidden_drift/none": [],
+  "hidden_drift/static": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 9,
+      "last_step": 20,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 8,
+      "last_step": 22,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 7,
+      "last_step": 23,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "hidden_drift/recency": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 37,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 45,
+      "last_step": 118,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 38,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 41,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 33,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 46,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "hidden_drift/frequency": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 37,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 45,
+      "last_step": 118,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 38,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 41,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 33,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 46,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "hidden_drift/scoped": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 37,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 45,
+      "last_step": 118,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 38,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 41,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 33,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 46,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    }
+  ],
+  "hidden_drift/gated": [
+    {
+      "id": 1,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 37,
+      "last_step": 119,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 2,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 45,
+      "last_step": 118,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 3,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 38,
+      "last_step": 116,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 4,
+      "service": "database",
+      "region": "us",
+      "version": 1,
+      "action": "parallel",
+      "support": 41,
+      "last_step": 237,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 5,
+      "service": "worker",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 33,
+      "last_step": 238,
+      "source": "sandbox_verifier"
+    },
+    {
+      "id": 6,
+      "service": "api",
+      "region": "us",
+      "version": 1,
+      "action": "serial",
+      "support": 46,
+      "last_step": 239,
+      "source": "sandbox_verifier"
+    }
+  ]
+}

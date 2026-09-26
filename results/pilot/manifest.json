@@ -1,0 +1,52 @@
+{
+  "backend": "deterministic-simulation",
+  "python": "3.12.14",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "steps": 240,
+  "lookup_cost": 0.3,
+  "scenarios": [
+    "stationary",
+    "drift",
+    "mixed_scope",
+    "noisy_feedback",
+    "hidden_drift"
+  ],
+  "modes": [
+    "none",
+    "static",
+    "recency",
+    "frequency",
+    "scoped",
+    "gated"
+  ],
+  "model_command": null,
+  "notes": "No LLM evidence unless an external model command was configured.",
+  "source_sha256": {
+    "ollama_worker.py": "84a323df26bd7a89577c86b90f4f008206ff50745e2ec3382e7db692b781f473",
+    "core.py": "85a2b59f54c2d385c3705b9f5ced1401da150e12e7ce282da83497e8624c3a83",
+    "run.py": "4e32d8f536b4b72ef3ca0a5eaf75bde62c538e9944bcfbf4613234cf69cf0421",
+    "__init__.py": "8ce72130978efb4b252280762adb84cfe11d2dd43758953e1061cdbaee20152e",
+    "adapter.py": "de6a050d271b728f62130967dbdb856d339723358b6119357eb0e873977cd9a1"
+  }
+}

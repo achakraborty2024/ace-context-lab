@@ -1,0 +1,392 @@
+[
+  {
+    "scenario": "stationary",
+    "mode": "none",
+    "correct": 1,
+    "utility": 0.7,
+    "lookup": 1,
+    "unsafe": 0,
+    "context_bytes": 2,
+    "utility_ci95": [
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "scenario": "stationary",
+    "mode": "static",
+    "correct": 1,
+    "utility": 1,
+    "lookup": 0,
+    "unsafe": 0,
+    "context_bytes": 144.07333333333332,
+    "utility_ci95": [
+      1,
+      1
+    ]
+  },
+  {
+    "scenario": "stationary",
+    "mode": "recency",
+    "correct": 1,
+    "utility": 1,
+    "lookup": 0,
+    "unsafe": 0,
+    "context_bytes": 145.79,
+    "utility_ci95": [
+      1,
+      1
+    ]
+  },
+  {
+    "scenario": "stationary",
+    "mode": "frequency",
+    "correct": 1,
+    "utility": 1,
+    "lookup": 0,
+    "unsafe": 0,
+    "context_bytes": 145.79,
+    "utility_ci95": [
+      1,
+      1
+    ]
+  },
+  {
+    "scenario": "stationary",
+    "mode": "scoped",
+    "correct": 1,
+    "utility": 1,
+    "lookup": 0,
+    "unsafe": 0,
+    "context_bytes": 145.79,
+    "utility_ci95": [
+      1,
+      1
+    ]
+  },
+  {
+    "scenario": "stationary",
+    "mode": "gated",
+    "correct": 1,
+    "utility": 1,
+    "lookup": 0,
+    "unsafe": 0,
+    "context_bytes": 145.79,
+    "utility_ci95": [
+      1,
+      1
+    ]
+  },
+  {
+    "scenario": "drift",
+    "mode": "none",
+    "correct": 1,
+    "utility": 0.7,
+    "lookup": 1,
+    "unsafe": 0,
+    "context_bytes": 2,
+    "utility_ci95": [
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "scenario": "drift",
+    "mode": "static",
+    "correct": 0,
+    "utility": -2,
+    "lookup": 0,
+    "unsafe": 1,
+    "context_bytes": 144.07333333333332,
+    "utility_ci95": [
+      -2,
+      -2
+    ]
+  },
+  {
+    "scenario": "drift",
+    "mode": "recency",
+    "correct": 0.975,
+    "utility": 0.925,
+    "lookup": 0,
+    "unsafe": 0.025,
+    "context_bytes": 287.425,
+    "utility_ci95": [
+      0.925,
+      0.925
+    ]
+  },
+  {
+    "scenario": "drift",
+    "mode": "frequency",
+    "correct": 0.0825,
+    "utility": -1.7525,
+    "lookup": 0,
+    "unsafe": 0.9175,
+    "context_bytes": 287.425,
+    "utility_ci95": [
+      -1.81875,
+      -1.6825
+    ]
+  },
+  {
+    "scenario": "drift",
+    "mode": "scoped",
+    "correct": 1,
+    "utility": 0.9925,
+    "lookup": 0.025,
+    "unsafe": 0,
+    "context_bytes": 141.685,
+    "utility_ci95": [
+      0.9925,
+      0.9925
+    ]
+  },
+  {
+    "scenario": "drift",
+    "mode": "gated",
+    "correct": 1,
+    "utility": 0.9925,
+    "lookup": 0.025,
+    "unsafe": 0,
+    "context_bytes": 141.685,
+    "utility_ci95": [
+      0.9925,
+      0.9925
+    ]
+  },
+  {
+    "scenario": "mixed_scope",
+    "mode": "none",
+    "correct": 1,
+    "utility": 0.7,
+    "lookup": 1,
+    "unsafe": 0,
+    "context_bytes": 2,
+    "utility_ci95": [
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "scenario": "mixed_scope",
+    "mode": "static",
+    "correct": 0.485,
+    "utility": -0.545,
+    "lookup": 0,
+    "unsafe": 0.515,
+    "context_bytes": 285.53791666666666,
+    "utility_ci95": [
+      -0.615,
+      -0.47750000000000004
+    ]
+  },
+  {
+    "scenario": "mixed_scope",
+    "mode": "recency",
+    "correct": 0.49624999999999997,
+    "utility": -0.51125,
+    "lookup": 0,
+    "unsafe": 0.50375,
+    "context_bytes": 567.5395833333333,
+    "utility_ci95": [
+      -0.5675,
+      -0.45999999999999996
+    ]
+  },
+  {
+    "scenario": "mixed_scope",
+    "mode": "frequency",
+    "correct": 0.49375,
+    "utility": -0.51875,
+    "lookup": 0,
+    "unsafe": 0.50625,
+    "context_bytes": 567.5395833333333,
+    "utility_ci95": [
+      -0.58125,
+      -0.455
+    ]
+  },
+  {
+    "scenario": "mixed_scope",
+    "mode": "scoped",
+    "correct": 1,
+    "utility": 0.985,
+    "lookup": 0.05,
+    "unsafe": 0,
+    "context_bytes": 138.44083333333333,
+    "utility_ci95": [
+      0.985,
+      0.985
+    ]
+  },
+  {
+    "scenario": "mixed_scope",
+    "mode": "gated",
+    "correct": 1,
+    "utility": 0.985,
+    "lookup": 0.05,
+    "unsafe": 0,
+    "context_bytes": 138.44083333333333,
+    "utility_ci95": [
+      0.985,
+      0.985
+    ]
+  },
+  {
+    "scenario": "noisy_feedback",
+    "mode": "none",
+    "correct": 1,
+    "utility": 0.7,
+    "lookup": 1,
+    "unsafe": 0,
+    "context_bytes": 2,
+    "utility_ci95": [
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "scenario": "noisy_feedback",
+    "mode": "static",
+    "correct": 0.175,
+    "utility": -1.475,
+    "lookup": 0,
+    "unsafe": 0.825,
+    "context_bytes": 249.47375,
+    "utility_ci95": [
+      -1.74375,
+      -1.15375
+    ]
+  },
+  {
+    "scenario": "noisy_feedback",
+    "mode": "recency",
+    "correct": 0.7725,
+    "utility": 0.3175,
+    "lookup": 0,
+    "unsafe": 0.2275,
+    "context_bytes": 557.4520833333333,
+    "utility_ci95": [
+      0.27125,
+      0.3675
+    ]
+  },
+  {
+    "scenario": "noisy_feedback",
+    "mode": "frequency",
+    "correct": 0.08958333333333333,
+    "utility": -1.73125,
+    "lookup": 0,
+    "unsafe": 0.9104166666666667,
+    "context_bytes": 557.4520833333333,
+    "utility_ci95": [
+      -1.80375,
+      -1.655
+    ]
+  },
+  {
+    "scenario": "noisy_feedback",
+    "mode": "scoped",
+    "correct": 0.7916666666666666,
+    "utility": 0.3675,
+    "lookup": 0.025,
+    "unsafe": 0.20833333333333334,
+    "context_bytes": 269.28833333333336,
+    "utility_ci95": [
+      0.3225,
+      0.41375
+    ]
+  },
+  {
+    "scenario": "noisy_feedback",
+    "mode": "gated",
+    "correct": 1,
+    "utility": 0.990375,
+    "lookup": 0.03208333333333333,
+    "unsafe": 0,
+    "context_bytes": 140.57666666666665,
+    "utility_ci95": [
+      0.989375,
+      0.991375
+    ]
+  },
+  {
+    "scenario": "hidden_drift",
+    "mode": "none",
+    "correct": 1,
+    "utility": 0.7,
+    "lookup": 1,
+    "unsafe": 0,
+    "context_bytes": 2,
+    "utility_ci95": [
+      0.7,
+      0.7
+    ]
+  },
+  {
+    "scenario": "hidden_drift",
+    "mode": "static",
+    "correct": 0,
+    "utility": -2,
+    "lookup": 0,
+    "unsafe": 1,
+    "context_bytes": 144.07333333333332,
+    "utility_ci95": [
+      -2,
+      -2
+    ]
+  },
+  {
+    "scenario": "hidden_drift",
+    "mode": "recency",
+    "correct": 0.975,
+    "utility": 0.925,
+    "lookup": 0,
+    "unsafe": 0.025,
+    "context_bytes": 287.425,
+    "utility_ci95": [
+      0.925,
+      0.925
+    ]
+  },
+  {
+    "scenario": "hidden_drift",
+    "mode": "frequency",
+    "correct": 0.0825,
+    "utility": -1.7525,
+    "lookup": 0,
+    "unsafe": 0.9175,
+    "context_bytes": 287.425,
+    "utility_ci95": [
+      -1.81875,
+      -1.6825
+    ]
+  },
+  {
+    "scenario": "hidden_drift",
+    "mode": "scoped",
+    "correct": 0.975,
+    "utility": 0.925,
+    "lookup": 0,
+    "unsafe": 0.025,
+    "context_bytes": 287.425,
+    "utility_ci95": [
+      0.925,
+      0.925
+    ]
+  },
+  {
+    "scenario": "hidden_drift",
+    "mode": "gated",
+    "correct": 0.975,
+    "utility": 0.925,
+    "lookup": 0,
+    "unsafe": 0.025,
+    "context_bytes": 287.425,
+    "utility_ci95": [
+      0.925,
+      0.925
+    ]
+  }
+]

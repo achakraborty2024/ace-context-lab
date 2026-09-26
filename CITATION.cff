@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Cite this research companion with the commit used. Cite the original ACE paper for the ACE method."
+title: "ACE Context Lab: Validity-Gated Playbooks under Policy Drift"
+type: software
+version: 0.1.0
+date-released: '2026-09-15'
+authors:
+  - family-names: Chakraborty
+    given-names: Arup
+license: MIT
+abstract: "Controlled deterministic memory-policy experiments and an optional local model adapter. No real-model effectiveness results are claimed."
+
+repository-code: "https://github.com/achakraborty2024/ace-context-lab"
